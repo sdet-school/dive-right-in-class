@@ -49,7 +49,7 @@ Let's get started, shall we?
 
 > You should now have the repo "checked out" on your computer!
   
-4. Install Selenium. Selenium is just a tool that clicks on things in the browser, that's it!
+4. Install Selenium and run a test. Selenium is just a tool that clicks on things in the browser, that's it!
 
 [Instructions for Mac users](https://www.notion.so/How-to-get-started-with-Selenium-on-a-Mac-44faaaecf00c40da9ac2f1db94ffd08e)
 

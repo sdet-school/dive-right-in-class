@@ -10,8 +10,6 @@ Hi! 👋
 <br />
 Welcome to SDET School!
 <br />
-If you have any problems with the set up steps below, or just have questions about anything, head over to our friendly [Slack group](https://sdetschool.slack.com/) 😉
-<br />
 Let's get started, shall we?
 
 ### First off, there are some things you need to install:
@@ -55,8 +53,6 @@ Let's get started, shall we?
 
 [Instructions for Windows users](https://www.notion.so/How-to-get-started-with-Selenium-on-Windows-38f909bf451b4df79caed5b2ec1f180b)
 
-Pfffft, you're done! Couldn't quite get it to work? It's OK. Head over to the SDET School's [Slack community](sdetschool.slack.com) and we'll help you to get going in no time.
 
-If it worked, still pop into the community and say hi!
 
 

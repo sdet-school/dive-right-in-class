@@ -1,16 +1,17 @@
-# Dive Right In! 
+# The Evil Corp Website Source Code Repository
 
  <p align="left">
   <kbd>
-<img src=https://i.chzbgr.com/full/1991407872/h65E6362E/dive-dive-dive>
+<img src=https://devstickers.com/assets/img/pro/qo3p.png>
    </kbd>
 </p>
 
 Hi! 👋 
 <br />
-Welcome to SDET School!
+Welcome to Evil Corp. The website is located [here](https://evil-corp.carrd.co/#).
 <br />
-Let's get started, shall we?
+
+Follow the steps below in order to execute tests
 
 ### First off, there are some things you need to install:
 
@@ -47,7 +48,7 @@ Let's get started, shall we?
 
 > You should now have the repo "checked out" on your computer!
   
-4. Install Selenium and run a test. Selenium is just a tool that clicks on things in the browser, that's it!
+4. Install Selenium and run the tests.
 
 [Instructions for Mac users](https://www.notion.so/How-to-get-started-with-Selenium-on-a-Mac-44faaaecf00c40da9ac2f1db94ffd08e)
 

@@ -20,17 +20,21 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install selenium
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Install Chrome and Firefox
+
+    - name: Install Chrome
       run: |
         sudo apt install google-chrome-stable
-    - name: Install chromedriver and geckodriver (Firefox Webdriver)
+
+    - name: Install chromedriver
       run: |
-        seleniumbase install chromedriver
+        pip install chromedriver
+
     - name: Test with selenium
       run: |
-        python dive-right-in-class/dive_right_in_test.py
+        python dive_right_in_test.py --run-on-ci

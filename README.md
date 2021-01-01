@@ -49,10 +49,12 @@ Follow the steps below to get set up and run the tests.
 5. Now install Selenium, Evil Corp's web UI testing tool of choice, and run the tests. Follow the instructions below for your operating system.
 Good luck, Evilcorper!
 
-[Instructions for Mac users](https://www.notion.so/How-to-get-started-with-Selenium-on-a-Mac-44faaaecf00c40da9ac2f1db94ffd08e)
+[Instructions for Mac users](https://github.com/sdet-school/evil-corp-web-app/wiki/How-to-get-started-with-Selenium-on-a-Mac)
 
 [Instructions for Windows users](https://www.notion.so/How-to-get-started-with-Selenium-on-Windows-38f909bf451b4df79caed5b2ec1f180b)
 
+6. Open the project in Sublime Text -> open `evil_corp_smoke_test.py`.
+Press "command" + B. If all goes well, a console view should open in Sublime and Safari should launch and navigate to Google. If you get the dialog below, just click "Continue Session"
 
 
 

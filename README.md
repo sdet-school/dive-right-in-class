@@ -21,7 +21,7 @@ Follow the steps below to get set up and run the tests.
 
 [Instructions for Mac users.](https://www.notion.so/Install-Python-on-a-Mac-23e17907109249f482d3341f3cad256f)
 
-5. "Pull" this repository onto your computer.
+4. "Pull" this repository onto your computer.
   - Create a folder named `Developer` on your computer: in your home directory if you're on a Mac or in any directory you prefer if you're on Windows.
   - Click the `Code` button above and Open in GitHub Desktop":
 <br />
@@ -46,7 +46,7 @@ Follow the steps below to get set up and run the tests.
 
 > You should now have the repo "checked out" on your computer!
   
-4. Now install Selenium, Evil Corp's web UI testing tool of choice, and run the tests. Follow the instructions below for your operating system.
+5. Now install Selenium, Evil Corp's web UI testing tool of choice, and run the tests. Follow the instructions below for your operating system.
 Good luck, Evilcorper!
 
 [Instructions for Mac users](https://www.notion.so/How-to-get-started-with-Selenium-on-a-Mac-44faaaecf00c40da9ac2f1db94ffd08e)

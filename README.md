@@ -5,9 +5,9 @@
 <img src=https://devstickers.com/assets/img/pro/qo3p.png>
    </kbd>
 </p>
-<br />
-Welcome to Evil Corp. This is the source code repository for the UI tests for the company's website located [here](https://evil-corp.carrd.co/#).
-<br />
+
+### Welcome to Evil Corp. This is the source code repository for the UI tests for the company's website located [here](https://evil-corp.carrd.co).
+
 
 Follow the steps below to get set up and run the tests.
 

@@ -53,8 +53,6 @@ Good luck, Evilcorper!
 
 [Instructions for Windows users](https://www.notion.so/How-to-get-started-with-Selenium-on-Windows-38f909bf451b4df79caed5b2ec1f180b)
 
-6. Open the project in Sublime Text -> open `evil_corp_smoke_test.py`.
-Press "command" + B. If all goes well, a console view should open in Sublime and Safari should launch and navigate to Google. If you get the dialog below, just click "Continue Session"
 
 
 

@@ -21,7 +21,7 @@ Follow the steps below to get set up and run the tests.
 
 [Instructions for Mac users.](https://www.notion.so/Install-Python-on-a-Mac-23e17907109249f482d3341f3cad256f)
 
-4. "Pull" this repository onto your computer.
+5. "Pull" this repository onto your computer.
   - Create a folder named `Developer` on your computer: in your home directory if you're on a Mac or in any directory you prefer if you're on Windows.
   - Click the `Code` button above and Open in GitHub Desktop":
 <br />

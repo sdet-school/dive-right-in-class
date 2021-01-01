@@ -5,19 +5,17 @@
 <img src=https://devstickers.com/assets/img/pro/qo3p.png>
    </kbd>
 </p>
-
-Hi! 👋 
 <br />
-Welcome to Evil Corp. The website is located [here](https://evil-corp.carrd.co/#).
+Welcome to Evil Corp. This is the source code repository for the UI tests for the company's website located [here](https://evil-corp.carrd.co/#).
 <br />
 
-Follow the steps below in order to execute tests
+Follow the steps below to get set up and run the tests.
 
 ### First off, there are some things you need to install:
 
 1. [GitHub Desktop Client](https://desktop.github.com). You will use it to view your changes, commit code and push it to GitHub.
 2. [Sublime Text](https://www.sublimetext.com). Text editor you will use to edit your code.
-3. Install Python (the programming language we will be using):
+3. Install Python (the Evil Corp's programming language of choice):
 
 [Instructions for Windows users.](https://www.notion.so/Install-Python-on-Windows-8a2ece34c0d745cebe76a9b65b4c712c)
 
@@ -30,7 +28,7 @@ Follow the steps below in order to execute tests
   
  <p align="center">
   <kbd>
-    <img src="https://i.imgur.com/SbmzT2k.png" alt="Codez" width="400">
+    <img src="https://imgur.com/Oky8qvY.png" alt="Codez" width="400">
   </kbd>
 </p>
   
@@ -41,14 +39,15 @@ Follow the steps below in order to execute tests
   
  <p align="center">
   <kbd>
-    <img src="https://i.imgur.com/yPRTwm8.png"  alt="Clone" width="400">
+    <img src="https://imgur.com/EIWzXEQ.png"  alt="Clone" width="400">
   </kbd>
 </p>
 
 
 > You should now have the repo "checked out" on your computer!
   
-4. Install Selenium and run the tests.
+4. Now install Selenium, Evil Corp's web UI testing tool of choice, and run the tests. Follow the instructions below for your operating system.
+Good luck, Evilcorper!
 
 [Instructions for Mac users](https://www.notion.so/How-to-get-started-with-Selenium-on-a-Mac-44faaaecf00c40da9ac2f1db94ffd08e)
 

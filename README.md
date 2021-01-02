@@ -1,6 +1,6 @@
 # The Evil Corp Website Source Code Repository
 
- <p align="left">
+ <p align="center">
   <kbd>
 <img src=https://devstickers.com/assets/img/pro/qo3p.png>
    </kbd>

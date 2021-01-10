@@ -34,7 +34,7 @@ Follow the steps below to get set up and run the tests.
   
 <br />
   
-  If `Github Desktop` is not opened automatically, open it, go to File -> Clone Repository -> URL -> https://github.com/sdet-school/dive-right-in-class.git -> Clone:
+  If `Github Desktop` is not opened automatically, open it, go to File -> Clone Repository -> URL -> https://github.com/sdet-school/evil-corp-web-app.git -> Clone:
   
   
  <p align="center">

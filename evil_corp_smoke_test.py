@@ -61,20 +61,27 @@ class EvilCorpSmokeTest(unittest.TestCase):
         self.driver.close()
         
     def test_evil_corp_site_navigation(self):
-        driver = self.driver
-        driver.get("https://evil-corp.carrd.co")
+        self.navigate_through_site()
+
+    def test_user_is_taken_to_homepage_after_site_navigation(self):
+        self.navigate_through_site()
+        self.assertEquals(self.driver.current_url, "https://evil-corp.carrd.co/#", 
+                            "Failed to verify user was on home page")
+
+    def navigate_through_site(self):
+        self.driver.get("https://evil-corp.carrd.co")
         self.wait_for(seconds=2)
-        driver.find_element_by_css_selector(str(Element.WHAT_WE_DO_BUTTON)).click()
+        self.driver.find_element_by_css_selector(str(Element.WHAT_WE_DO_BUTTON)).click()
         self.wait_for(seconds=3)
-        driver.find_element_by_css_selector(str(Element.WHAT_WE_DO_PAGE_BACK_BUTTON)).click()
+        self.driver.find_element_by_css_selector(str(Element.WHAT_WE_DO_PAGE_BACK_BUTTON)).click()
         self.wait_for(seconds=3)
-        driver.find_element_by_css_selector(str(Element.ABOUT_BUTTON)).click()
+        self.driver.find_element_by_css_selector(str(Element.ABOUT_BUTTON)).click()
         self.wait_for(seconds=3)
-        driver.find_element_by_css_selector(str(Element.ABOUT_PAGE_BACK_BUTTON)).click()
+        self.driver.find_element_by_css_selector(str(Element.ABOUT_PAGE_BACK_BUTTON)).click()
         self.wait_for(seconds=3)
-        driver.find_element_by_css_selector(str(Element.CONTACT_BUTTON)).click()
+        self.driver.find_element_by_css_selector(str(Element.CONTACT_BUTTON)).click()
         self.wait_for(seconds=3)
-        driver.find_element_by_css_selector(str(Element.CONTACT_PAGE_BACK_BUTTON)).click()
+        self.driver.find_element_by_css_selector(str(Element.CONTACT_PAGE_BACK_BUTTON)).click()
         self.wait_for(seconds=3)
 
     def wait_for(self, seconds=0):

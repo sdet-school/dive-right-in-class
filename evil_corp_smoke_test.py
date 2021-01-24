@@ -60,7 +60,8 @@ class EvilCorpSmokeTest(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    def test_evil_corp_site_navigation(self):
+
+    def navigate_through_site(self):
         self.driver.get("https://evil-corp.carrd.co")
         self.wait_for(seconds=2)
         self.driver.find_element_by_css_selector(str(Element.WHAT_WE_DO_BUTTON)).click()
@@ -75,6 +76,14 @@ class EvilCorpSmokeTest(unittest.TestCase):
         self.wait_for(seconds=3)
         self.driver.find_element_by_css_selector(str(Element.CONTACT_PAGE_BACK_BUTTON)).click()
         self.wait_for(seconds=3)
+
+    def test_evil_corp_site_navigation(self):
+        self.navigate_through_site()
+
+    def test_user_is_taken_to_homepage_after_site_navigation(self):
+        self.navigate_through_site()
+        self.assertEquals(self.driver.current_url, "https://evil-corp.carrd.co/#",
+                            "Cannot verify that user was on home page after site navigation.")
 
     def wait_for(self, seconds=0):
         time.sleep(seconds)
